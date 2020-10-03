@@ -32,7 +32,7 @@ fi
 done
 
 # Start Cloudgene
-cd /opt/cloudgene; sudo ./cloudgene -u cloudgene -p 8082 -a start -j /usr/lib/jvm/java-8-oracle
+cd /opt/cloudgene; sudo ./cloudgene -u cloudgene -p 8082 -a start -j /usr/lib/jvm/java-8-oracle -d
 
 echo ""
 echo "Setup done."
